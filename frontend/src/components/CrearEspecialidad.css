@@ -1,0 +1,15 @@
+/* CrearEspecialidad.css */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  

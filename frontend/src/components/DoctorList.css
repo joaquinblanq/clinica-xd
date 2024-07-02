@@ -1,0 +1,76 @@
+/* DoctorsList.css */
+
+/* Estilos para la tarjeta de médico */
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card h5 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.doctor-card p {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+/* Estilos para el ícono de feedback */
+.feedback-icon {
+  display: flex;
+  align-items: center;
+  color: #007bff; /* Color del enlace, puede ajustarse según el esquema de colores de tu aplicación */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.feedback-icon:hover {
+  color: #0056b3; /* Cambio de color al pasar el cursor por encima */
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 8px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+/* Botones */
+.modal-footer button {
+  border-radius: 6px;
+}
+
+.modal-footer button:first-child {
+  margin-right: 10px;
+}
+
+/* Textarea de feedback */
+#feedbackText {
+  resize: vertical;
+}

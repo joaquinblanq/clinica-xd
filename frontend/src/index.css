@@ -1,0 +1,16 @@
+/* global.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("components/depositphotos_207561022-stock-photo-stethoscope-and-pills-on-table.jpg"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden; /* Evita que el contenido se desborde horizontalmente */
+}
+
+h1 {
+  text-align: center;
+}

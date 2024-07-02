@@ -1,0 +1,52 @@
+/* DoctorCard.css */
+
+/* Estilos para la tarjeta del médico */
+.doctor-card {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #e0e0e0; /* Borde ligero */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px;
+  transition: box-shadow 0.3s ease; /* Transición de sombra */
+  height: 100%;
+}
+
+.doctor-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra al pasar el cursor */
+}
+
+/* Estilos para la cabecera del médico */
+.doctor-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.doctor-icon {
+  font-size: 2rem;
+  color: #007bff; /* Color azul para el icono del médico */
+  margin-right: 15px; /* Espacio a la derecha del icono */
+}
+
+.doctor-header div {
+  flex-grow: 1; /* El texto se expande para ocupar el espacio restante */
+}
+
+.doctor-header h5 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.doctor-header .text-muted {
+  font-size: 1rem;
+  color: #6c757d; /* Color gris para el subtítulo */
+}
+
+/* Estilos para el botón de feedback */
+.feedback-button {
+  width: 100%; /* Ancho completo */
+  margin-top: 15px; /* Espacio superior */
+}
+
+.feedback-icon {
+  margin-right: 5px; /* Espacio a la derecha del ícono de estrella */
+}
